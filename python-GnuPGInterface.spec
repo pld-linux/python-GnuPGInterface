@@ -46,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog MANIFEST NEWS README THANKS
 %{py_sitescriptdir}/GnuPGInterface.py[co]
 %if "%{py_ver}" > "2.4"
-%{py_sitescriptdir}/GnuPGInterface-%{version}-py2.5.egg-info
+%{py_sitescriptdir}/GnuPGInterface-*.egg-info
 %endif
